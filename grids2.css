@@ -12,31 +12,20 @@ body{
 a {
     text-decoration: none;
     color: grey;
-    margin: 13px;
+    margin: 12px;
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(12, auto);
-    justify-items: start ;
+    justify-items: start;
     width: auto;
-/* 
-    grid-template-areas:
-"logo logo logo logo pic1"
-"logo logo logo logo pic2"
-"logo logo logo logo pic3"
-"pic4 pic4 pic5 pic6 pic7"
-"pic4 pic pic5 pic6 pic7"
-"pic8 pic9 pic9 pic10 pic11"
-"pic8 pic13 pic14 pic14 pic15"
-"pic12 pic13 pic16 pic17 pic18"
-"pic19 pic20 pic20 . info"; */
 }
 
-/* .image {
-    border: solid 5px white;
-} */
+.image {
+    width: 100%;
+}
 
 .item{
     height: auto;
@@ -159,6 +148,7 @@ a {
     grid-area: info;
     grid-column: 5/6;
     grid-row: 9/10;
+    text-align: bottom;
 }
 
  ul{
@@ -185,7 +175,7 @@ li {
     display: block;
     color: black;
     text-align: right;
-    padding: 7px 7px;
+    padding: 6px 7px;
     text-decoration: none;
     }
 }
