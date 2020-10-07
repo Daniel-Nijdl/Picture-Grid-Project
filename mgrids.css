@@ -77,7 +77,6 @@ body{
     grid-row: 4/6;
     background-image: url(images/ce_image07.png);
     background-size: 100% 100%;
-    
 }
 .cell-i{
     grid-area: pic8;
@@ -176,7 +175,7 @@ body{
     grid-row: 9/10;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: red;
+    text-decoration-color: brown;
 }
 
 ul{
